@@ -2,6 +2,7 @@ package cn.Day15.Collection.itcast_01;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 /**
  * Created by Searis on 2016/3/14.
@@ -23,16 +24,20 @@ public class CollectionDemo3 {
         c.add(s4);
 
         //System.out.println(c);
+        /*
         Object[] objs=c.toArray();
 
         for (int x=0;x<objs.length;x++){
             //System.out.println(objs[x]);
             Student s=(Student)objs[x];
             System.out.println(s.getName()+"---"+s.getAge());
-
         }
+        */
 
-
+        for(Iterator it=c.iterator();it.hasNext();){
+            Student s=(Student) it.next();
+            System.out.println(s.getName()+"---"+s.getAge());
+        }
 
     }
 
