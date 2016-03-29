@@ -1,6 +1,4 @@
-package day16.List_son.test;
-
-import java.util.Iterator;
+package cn.day16.List_son.test;
 
 /**
  * Created by Searis on 2016/3/22.
