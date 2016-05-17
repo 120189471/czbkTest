@@ -28,9 +28,10 @@ public class FileDemo{
         File file4=new File("E:/java/a.txt");
         //System.out.println(file4.createNewFile());
         File file5=new File("E:/java/Demo/demo2");
-        System.out.println(file5.mkdirs());
+        //System.out.println(file5.mkdirs());
         File file6=new File("E:/java/Demo/demo3/a.txt");
-        System.out.println(file6.mkdirs());
+        //System.out.println(file6.mkdirs());
+        System.out.println(file6.createNewFile());
 
         //É¾³ý¹¦ÄÜ:public boolean delete()
         System.out.println(file6.delete());
@@ -38,6 +39,8 @@ public class FileDemo{
         System.out.println("file7: "+file7.delete());
 
         System.out.println("file4: "+file4.delete());
+
+
 
 
 
