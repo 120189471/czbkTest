@@ -36,6 +36,7 @@ public class DateFormatDemo {
         //Date -- String(格式化)
         //创建一个对象
         Date d = new Date();
+        System.out.println(d);
         //创建格式化对象
         //默认模式
         SimpleDateFormat sdf = new SimpleDateFormat();

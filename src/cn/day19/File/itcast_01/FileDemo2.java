@@ -9,6 +9,8 @@ import java.io.IOException;
 public class FileDemo2 {
     public static void main(String args[]) throws IOException {
         File file1=new File("E:/java/Demo/rename.jpg");
+        File file2=new File("E:/java/Demo/rename_bak.jpg");
         System.out.println("file1: "+file1.createNewFile());
+        System.out.println("rename: "+file1.renameTo(file2));
     }
 }
